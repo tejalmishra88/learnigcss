@@ -1,11 +1,11 @@
-body {	font-family: Arial, sans-serif;    	background-color: #738294;  /*outside container page color */   }
+body {	font-family: Arial, sans-serif;    	background-color:red;  /*outside container page color */   }
 #container {	width: 900px;	
                 padding: 30px;	/*padding inside container --all sides*/
                 margin: 0 auto;	/*first is verticle margin = 0, second is horizontal margin=auto(equal margin on rt and left ie it will center the content)  */
                 background-color: #FFF; /* inside page container color*/
           }
 #header {}
-#header h1 { background: url(./screenshots/css-tutorial.PNG) top left no-repeat;
+#header h1 { background: url(./css-tutorial.PNG) top left no-repeat;
              width: 792px; height: 100px;
              text-indent: -10000px ; /* text in html will be indented and will not appear with image */
            }
@@ -19,7 +19,8 @@ body {	font-family: Arial, sans-serif;    	background-color: #738294;  /*outside
      }
 #nav li {	
         list-style: none;	/* to remove the bullets*/
-        float: left;	/* will make list items horizontal(floats the list items) */ /*include clearfix class to clear all other page content down*/
+        float: left;
+        padding: 0 ;	/* will make list items horizontal(floats the list items) */ /*include clearfix class to clear all other page content down*/
        /* padding: 0 15px 0 0; /* space between list-- clock wise--top rt(15px) bottom left */
       }
 #nav li a:link, #nav li a:visited {	text-decoration: none;  /*removes the under line */
@@ -34,12 +35,12 @@ body {	font-family: Arial, sans-serif;    	background-color: #738294;  /*outside
 
 
 #body {   /*background: linear-gradient(to right,white, white , #7c7c7c); */
-         background: url(./screenshots/3.jpg) top left repeat-y;
+         background: url(./3.jpg) top left repeat-y;
        }
 #body p {	line-height: 1.6em;} /* line spacing in paragraphs*/
 .main {	width: 600px;	float: left;}
 .main-padding {	padding: 0 60px 0 0;} /*main para padding--clock wise- top rt bottom left */
-.side {	width: 300px;	float: left;}
+.side {	width: 300px;	float: left; background-color: gray;}
 #footer {	background-color: #4D5B6C;	
             color: #FFF; /*text color */
         }

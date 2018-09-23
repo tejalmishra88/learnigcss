@@ -1,13 +1,13 @@
-h1 {
-    color: orangered;
+h2 {
+    color: blueviolet;
     text-align: center;
     }
-    p { font-size: 130%;}
+p { font-size: 130%;}
    
 
     #intro {background-color: yellow;}
     .first{ font-size:200%;}
-    #intro .first{color:red;}
-    #intro .first em {color:green;}
+   #intro .first{color:red;}
+     #intro .first em {color:green;}  
 
     
