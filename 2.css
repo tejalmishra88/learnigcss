@@ -5,7 +5,7 @@ body {	font-family: Arial, sans-serif;    	background-color:red;  /*outside cont
                 background-color: #FFF; /* inside page container color*/
           }
 #header {}
-#header h1 { background: url(./css-tutorial.PNG) top left no-repeat;
+#header h1 { background: url(./3.2image.PNG) top left no-repeat;
              width: 792px; height: 100px;
              text-indent: -10000px ; /* text in html will be indented and will not appear with image */
            }
